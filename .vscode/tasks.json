@@ -1,0 +1,25 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++: g++-10 build active file",
+			"command": "/usr/local/bin/g++-10",
+			"args": [
+				"-g",
+				"${file}",
+				"-Wall",
+				"-o",
+				"${fileDirname}/a.out"
+			],
+			"options": {
+				"cwd": "/usr/local/bin"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "compiler: /usr/local/bin/g++-10"
+		}
+	]
+}
